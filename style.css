@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(41, 128, 185, 0.4);
+    padding: 20px;
+}
+
+.logo {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.nav-link,
+.btn {
+    margin: 0 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.loginBtn {
+    background-color: rgb(41, 128, 185);
+}
+
+.logoutBtn {
+    background-color: #c0392b;
+}
+
+.startingSection {
+    height: 700px;
+    background-image: url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDescription {
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #2c3e50;
+}
+
+.aboutContent {
+    text-align: center;
+}
+
+.contactUs {
+    background-color: rgb(230, 126, 34);
+    color: #fff;
+}
+
+.images {
+    padding: 100px;
+    background-color: rgba(41, 128, 185, 0.15);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.catalogImg {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.formDiv {
+    width: 300px;
+    position: absolute;
+    top: 15%;
+    left: 45%;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 14px;
+    display: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 14px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+.emailLogin {
+    background-color: rgba(41, 128, 185, 0.85);
+    margin: 10px 0;
+    color: #fff;
+}
+
+footer {
+    background-color: rgba(44, 62, 80, 0.95);
+    padding: 20px;
+    color: #bdc3c7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutUs {
+    width: 500px;
+}
+
+.darkMode {
+    background-color: #bdc3c7;
+    color: #2c3e50;
+}

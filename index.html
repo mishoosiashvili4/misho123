@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Header / ნავიგაცია -->
+    <header>
+        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=200&q=80" alt="Logo" class="logo">
+        <nav>
+            <a href="#" class="nav-link">HOME</a>
+            <a href="#" class="nav-link">DESTINATIONS</a>
+            <a href="#" class="nav-link">CONTACT</a>
+        </nav>
+        <div class="btnDiv">
+            <h2 class="greet"></h2>
+            <button class="btn loginBtn">Log In</button>
+            <button class="btn logoutBtn">Log out</button>
+        </div>
+    </header>
+
+    <!-- Main / მთავარი კონტენტი -->
+    <main>
+        <!-- პირველი სექცია -->
+        <section class="startingSection">
+            <div class="mainDescription">
+                <h1 class="aboutPage">Explore The World</h1>
+                <p class="aboutContent">Discover breathtaking destinations, immerse yourself in new cultures, and plan your next unforgettable adventure with us. The journey of a lifetime begins here!</p>
+                <button class="btn contactUs">Book Now</button>
+                <p class="contactInfo"></p>
+            </div>
+        </section>
+
+        <!-- მეორე სექცია (გალერეა - მოგზაურობის ფოტოები) -->
+        <section class="images">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Mountain" class="catalogImg">
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Beach" class="catalogImg">
+            <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=600&q=80" alt="City" class="catalogImg">
+            <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=600&q=80" alt="Forest" class="catalogImg">
+        </section>
+
+        <!-- Log In ფორმა -->
+        <div class="formDiv">
+            <form action="">
+                <label for="email">Log In with Email:</label>
+                <input type="email" name="email" id="email" required>
+                <button class="btn emailLogin">Log In</button>
+            </form>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=200&q=80" alt="Logo" class="logo">
+        <div class="aboutUs">
+            <h2>About Travel Agency</h2>
+            <p>We are dedicated to turning your travel dreams into reality. Explore the most exotic locations around the globe with our exclusive packages and expert guides.</p>
+        </div>
+        <div class="FullcontactInfo">
+            <h2>Contact Information</h2>
+            <p>12 Adventure Avenue, Tbilisi, Georgia</p>
+            <p>Tel: (+032) 2 55 55 55</p>
+            <p>Mobile: (+995) 599 11 22 33</p>
+            <p>Email: exploreWorld@gmail.com</p>
+            <button class="btn darkMode">Dark Mode</button>
+        </div>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
